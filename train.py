@@ -62,7 +62,7 @@ dataset = ChatDataset()
 train_loader = DataLoader(dataset=dataset, batch_size=8, shuffle=True, num_workers=0)
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-model = NeuralNet(len(x_train[0]), 8, len(tags)).to(device)
+model = NeuralNet(input_size, hidden_size, output_size).to(device)
 
 criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
@@ -81,3 +81,17 @@ for epoch in range(num_epochs):
 
     if (epoch + 1) % 100 == 0:
         print(f"Epoch {epoch+1}/{num_epochs}, Loss: {loss.item():.4f}")
+
+data = {
+    "model_state": model.state_dict(),
+    "input_size": input_size,
+    "output_size": output_size,
+    "hidden_size": hidden_size,
+    "all_words": all_words,
+    "tags": tags
+}
+
+FILE = "data.pth"
+torch.save(data, FILE)
+
+print(f"Training complete. File saved to {FILE}")
