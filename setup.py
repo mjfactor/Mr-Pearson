@@ -9,7 +9,7 @@ with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='pearson',
-    version='1.0',
+    version='1.1',
     packages=find_packages(),
     author='mjfactor',
     author_email='emjayfactor@gmail.com',
