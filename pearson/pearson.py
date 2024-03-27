@@ -1,8 +1,8 @@
 import random
 import json
 import torch
-from model import NeuralNet
-from main import tokenize, bag_of_words
+from core.model import NeuralNet
+from core.main import tokenize, bag_of_words
 import time
 import sys
 
@@ -59,4 +59,3 @@ def pearson():
 
         else:
             print(f"{bot_name}: I do not understand...")
-
