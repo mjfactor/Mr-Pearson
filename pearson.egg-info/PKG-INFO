@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: pearson
+Version: 1.0
+Summary: A Dumb Chatbot, Please dont install me
+Author: mjfactor
+Author-email: emjayfactor@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: nltk
+Requires-Dist: torch
+
+# Mr. Pearson
+Mr. Pearson is a bot that tells your dark humor. This bot uses neural network to generate a response to your input.
+
+## Installation
+Visit: https://pypi.org/project/pearson/
+
+or to Install this library:
+```bash
+pip install pearson
+```
+*run pip on your virtual environment lol*
+
+## Usage
+```python
+from pearson import pearson
+```
+call it using:
+```python
+pearson()
+```
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

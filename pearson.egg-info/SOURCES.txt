@@ -1,0 +1,11 @@
+setup.py
+pearson/__init__.py
+pearson/main.py
+pearson/model.py
+pearson/pearson.py
+pearson/train.py
+pearson.egg-info/PKG-INFO
+pearson.egg-info/SOURCES.txt
+pearson.egg-info/dependency_links.txt
+pearson.egg-info/requires.txt
+pearson.egg-info/top_level.txt

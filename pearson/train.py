@@ -6,7 +6,7 @@ import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 from model import NeuralNet
 
-with open("brain.json", "r") as file:
+with open("brain.json", "r", encoding='utf-8') as file:
     brain = json.load(file)
 
 all_words = []
