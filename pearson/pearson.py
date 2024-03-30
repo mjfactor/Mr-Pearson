@@ -1,8 +1,8 @@
 import random
 import json
 import torch
-from core.model import NeuralNet
-from core.main import tokenize, bag_of_words
+from model import NeuralNet
+from main import tokenize, bag_of_words
 import time
 import sys
 

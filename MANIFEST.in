@@ -1,0 +1,4 @@
+graft pearson
+include setup.py
+include readme.md
+include version.py
