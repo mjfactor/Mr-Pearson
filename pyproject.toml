@@ -1,0 +1,6 @@
+[tool.poetry]
+name = "pearson"
+version = "2.4"
+description = "A simple chatbot that can be trained to answer questions based on a dataset"
+authors = ["mjfactor <emjayfactor@gmail.com>"]
+homepage = "https://github.com/mjfactor/Mr-Pearson.git"
