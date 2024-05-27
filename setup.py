@@ -34,6 +34,9 @@ setup(
         'nltk',
         'torch'
     ],
+    project_urls={
+        'Source': 'https://github.com/mjfactor/Mr-Pearson.git',
+    },
     include_package_data=True,
     python_requires='>=3.7',
     package_data={'': ['readme.md']}
