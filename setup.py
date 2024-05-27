@@ -35,7 +35,7 @@ setup(
         'torch'
     ],
     project_urls={
-        'Source': 'https://github.com/mjfactor/Mr-Pearson.git',
+        'Source': 'https://github.com/mjfactor/Mr-Pearson',
     },
     include_package_data=True,
     python_requires='>=3.7',
