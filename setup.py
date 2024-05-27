@@ -13,7 +13,7 @@ setup(
     version=version,
     packages=find_packages(),
     author='mjfactor',
-    url='https://github.com/mjfactor/Mr-Pearson',
+    url='https://github.com/mjfactor/Mr-Pearson.git',
     author_email='emjayfactor@gmail.com',
     description='A simple chatbot that can be trained to answer questions based on a dataset',
     long_description= long_description,
