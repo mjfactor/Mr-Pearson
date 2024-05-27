@@ -9,7 +9,7 @@ long_description = (HERE / "readme.md").read_text()
 
 
 setup(
-    name='pearson',
+    name='pearson_bot',
     version=version,
     packages=find_packages(),
     author='mjfactor',
